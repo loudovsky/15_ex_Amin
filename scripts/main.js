@@ -3,7 +3,6 @@ let basket = document.querySelector(".count")
 let totalPrice = document.querySelector(".totalPrice");
 let detailedBasket = document.querySelector(".detailedBasket")
 
-let itemNbrList = []
 let myItems = []
 
 function addItemLine (quoi, combien, prix, prixTotal) {
